@@ -5,7 +5,7 @@ buildscript {
   }
   dependencies {
     classpath "com.fernandocejas.frodo:frodo-plugin:$project.version"
-    classpath "com.android.tools.build:gradle:$project.androidBuildToolsVersion"
+    classpath 'com.android.tools.build:gradle:2.2.3'
   }
 }
 
